@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+body{
+    background-color: rgb(152, 152, 235);
+    padding-top: 100px;
+}
+header{
+    display: flex;
+    align-items: center;
+    margin-bottom: 35px;
+    margin-left: 33%;
+}
+header img{
+    margin-right: 16px;
+    height: 36px;
+    border-radius: 10%;
+}
+header h1{
+    font-weight: bold;
+    font-size: 40px;
+    background-color: rgb(131, 131, 219);
+    border-bottom: 3px dotted black;
+}
+.container{
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+form{
+    display: flex;
+    max-width: 640px;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 16px;
+    margin-left: 19%;
+}
+form button{
+    background-color: blue;
+    color: white;
+    padding: 4px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+form button:hover{
+    background-color: rgba(0, 0, 255, 0.411);
+    border: 1px solid black;
+    color: black;
+    cursor: pointer;
+}
+form input{
+    font-size: 16px;
+    border: none;
+    border-bottom: 2px solid black;
+    padding: 8px;
+}
+table{
+    width: 100%;
+}
+table th{
+    border-bottom: 2px solid black;
+    padding: 16px;
+    font-size: 18px;
+    font-weight: bold;
+}
+table td{
+    text-align: center;
+    padding: 16px 0;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
